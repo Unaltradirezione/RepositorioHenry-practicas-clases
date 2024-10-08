@@ -1,9 +1,23 @@
 body {
-    background-color: beige;
+    background-color: rgb(223, 223, 201);
 }
 
-h4{
-    background-color: rgb(184, 147, 0);
+h4 {
+    background-color: rgb(175, 155, 72);
 
 }
 
+.title {
+    font-size: 25px;
+    color: rgb(60, 30, 30);
+}
+
+.logo{
+    width: 500px
+}
+
+
+
+#principal {
+    font-size: 60px;
+}
