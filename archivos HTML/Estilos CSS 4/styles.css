@@ -7,7 +7,7 @@ h4 {
 
 }
 
-p{
+p {
     font-size: 1.5em;
 
 }
@@ -17,22 +17,22 @@ p{
     color: rgb(60, 30, 30);
 }
 
-.logo{
+.logo {
     width: 500px
 }
 
-.cards{
+.cards {
     border: 2px solid black;
-    width: fit-content;   
+    width: fit-content;
     padding: 0px 1em 35px 1em;
     /*Arriba (0px), derecha (1em),abajo(0px), izquiera (1em) *siguiendo la logica de las agujas del reloj*/
     border-radius: 15%;
     transition: 1s;
 }
 
-.cards:hover{
+.cards:hover {
     background-color: white;
-    
+
 }
 
 #principal {
@@ -48,4 +48,3 @@ p{
     /*viewport width*/
 
 }
-
