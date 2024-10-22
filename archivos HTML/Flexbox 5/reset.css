@@ -1,0 +1,50 @@
+/* Resetn CSS */
+
+* selector universal para plicar estilos a todos lo elementos */ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aplicar un estilo minimo al cuerpo del documento */
+dody {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    /*Establecer una fuente generica para el cuerpo */
+}
+
+/* Corregir estilos para los elemntos de lista */
+ul,
+ol {
+    list-style: none;
+    /*Eliminar los estilos de viñetas/numeros en listas*/
+}
+
+/* Establecer estilos basicos para los elemenos de texto */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*Establecer estilos basico para los enlaces */
+a {
+    text-decoration: none;
+    /*Eliminar el subrayado predeterminado de los enlaces */
+    color: inherit;
+    /* Heredar el colo del texto del elemento padre */
+}
+
+/*Establecer estilos basicos para las imagenes */
+img {
+    max-width: 100%;
+    /*Hacer que las imagenes sean responsivas dentro de su contenedor */
+}
+
+/*puedes gregar mas estilos segun tus necesidades */
