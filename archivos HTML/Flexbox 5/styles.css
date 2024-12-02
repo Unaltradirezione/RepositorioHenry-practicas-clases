@@ -1,5 +1,6 @@
 body {
     background-color: rgb(223, 223, 201);
+    
 }
 
 h4 {
@@ -14,20 +15,27 @@ p {
 
 .title {
     font-size: 2em;
-    color: rgb(60, 30, 30);
+    color: rgb(0, 0, 0);
+    
+
 }
 
 .logo {
-    width: 500px
+    width: 500px;
+    height: 200px;
 }
 
 .cards {
     border: 2px solid black;
     width: fit-content;
-    padding: 20px 1em 20px 1.5em;
+    padding: 1em 1em 1em 1.5em;
     /*Arriba (0px), derecha (1em),abajo(0px), izquiera (1em) *siguiendo la logica de las agujas del reloj*/
     border-radius: 15%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 
 .cards:hover {
@@ -37,28 +45,46 @@ p {
 
 #principal {
     font-size: 60px;
+    transition: 1s;
 }
 
-#Titulos {
-    border: 2px solid black;
+
+
+#Titulos:hover {
+    background-color: rgb(156, 156, 156);
+
+}
+
+
+#Titulos {    
     background-color: rgb(175, 155, 72);
     width: 60vw; /* viewport width = anchura de la ventana visible del navegador */
     margin: auto;
-    padding: 3em;
-    /*viewport width*/
+    padding: 3em;     /*viewport width*/
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
+
 
 /* viewport width = anchura de la ventana visible del navegador */
 
 #cards-container{
+    
     background-color: rgb(172, 165, 123);
     width: 85vw;
     margin: auto;
     margin-top: 1.5em;
-    border: 2px solid rgb(173, 116, 116);
+    border: 2.5px solid rgb(0, 0, 0);
     border-radius: 15px;
-    padding: 2em;    
+    padding: 2em;  
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 /*me quede en el minuto 9:49 del video/*
