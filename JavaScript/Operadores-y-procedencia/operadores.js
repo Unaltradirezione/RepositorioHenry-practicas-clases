@@ -9,6 +9,7 @@ console.log(14 - 7);
 //MULTIPLICACION
 console.log(4 * 6);
 
+//DIVICION
 console.log(30 / 9);
 
 //RESTO
