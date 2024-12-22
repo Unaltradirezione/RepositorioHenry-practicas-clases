@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(223, 223, 201);
+}
+
+h4 {
+    background-color: rgb(175, 155, 72);
+
+}
+
+p {
+    font-size: 1.5em;
+
+}
+
+.title {
+    font-size: 3em;
+    color: rgb(60, 30, 30);
+}
+
+.logo {
+    width: 500px
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 35px 1em;
+    /*Arriba (0px), derecha (1em),abajo(0px), izquiera (1em) *siguiendo la logica de las agujas del reloj*/
+    border-radius: 15%;
+    transition: 1s;
+}
+
+.cards:hover {
+    background-color: white;
+
+}
+
+#principal {
+    font-size: 60px;
+}
+
+#Titulos {
+    border: 2px solid black;
+    background-color: rgb(175, 155, 72);
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    /*viewport width*/
+
+}
