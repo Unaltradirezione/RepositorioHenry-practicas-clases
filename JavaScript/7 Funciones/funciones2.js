@@ -1,3 +1,8 @@
+                                
+                                
+                                            "Particularidades de la instruccion return"
+                                            
+
 function ciudadoConElConsoleLog(nombre) {
     console.log (nombre);
     return nombre;
@@ -10,3 +15,17 @@ function ciudadoConElConsoleLog(nombre) {
     }
     
 
+    //nueva funcion
+
+    function ciudadoConElConsoleLog(nombre) {
+        console.log (nombre);
+        return nombre;
+    }
+
+    
+    function otraFuncion () {
+        return (
+            "El nombre retornado por la funcion 'cuidadoConElConsoleLog' es: " +
+            ciudadoConElConsoleLog('Victor')
+        );
+    }
