@@ -8,3 +8,5 @@ function viajar (destino) {
 
     viajar('Argentina')
      
+    "en la variable viajar se modifica con las difrntes variables si se cambia por Brazil o Argentina arrojara la instruccion"
+    "que se le esta solicitando"
