@@ -1,0 +1,9 @@
+
+
+
+En programación, una variable booleana (o simplemente booleana) es un tipo de dato que solo puede tener dos valores posibles:
+
+                Verdadero (en inglés, true)
+                Falso (en inglés, false)
+
+Este tipo de dato se utiliza principalmente para representar condiciones lógicas y controlar el flujo de programas, como en las estructuras de decisión (if, while, etc.).

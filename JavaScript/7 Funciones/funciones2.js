@@ -1,7 +1,7 @@
                                 
                                 
                                             "Particularidades de la instruccion return"
-                                            
+
 
 function ciudadoConElConsoleLog(nombre) {
     console.log (nombre);
@@ -29,3 +29,14 @@ function ciudadoConElConsoleLog(nombre) {
             ciudadoConElConsoleLog('Victor')
         );
     }
+
+
+    "otro ejemplo sobre las particularidades del return"
+    //se va a cambiar el orden en el que se pone el return y el console.Log()
+
+        function cuidadoConElReturn(nombre) {
+            return nombre;
+            console.log(nombre);    
+        }
+    //para este caso todo lo que se ejecuta por debajo del return no se va a jeecutar  y solo va dar un solo resutlado que viene de la
+    //funcion nonbre 
