@@ -26,3 +26,4 @@ function puedeManejar (edad) {
 } 
 
 puedeManegar ('22')
+
