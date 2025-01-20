@@ -1,0 +1,17 @@
+{
+  "name": "ejercicios-del-prepcourse",
+  "version": "1.0.0",
+  "description": "Repositorio de ejercicios HTML",
+  "main": "index.js",
+  "scripts": {
+     "test": "jest",
+      "jest": "jest --testNamePattern="
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
