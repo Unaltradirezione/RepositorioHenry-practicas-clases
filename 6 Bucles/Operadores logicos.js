@@ -55,6 +55,39 @@ mayorYmenor(7);
     };
      
     negacion(true);
-    negaion(false);
+    negacion(false);
 
+
+
+                    // Se agrega signo de exclamacion
+                    // esto preguntata por el valor opuesto del parametro
+                    // se imprimira si el valor (tiene permiso) si el valor permiso es (false)
     
+                        function negacion(permiso){
+                            if(!permiso) console.log('Tiene permiso');
+
+                        };
+                        
+                        negacion(true);
+                        negacion(false);
+
+                     //loanteiror es equivalete si se haca una comparacion de valores,  // Equivalencia con el signo de exclamacion
+
+                        function negacion(permiso){
+                            if(permiso === true) console.log('Tiene permiso');
+                    
+                        };
+                        
+                        negacion(true);
+
+                        //aplicando la negacion
+                        // se reemplaza el signo de igual por el deexclamacion
+                        
+                        function negacion(permiso){
+                            if(permiso !== true) console.log('Tiene permiso');
+                    
+                        };
+                        
+                        negacion(false);
+
+               
