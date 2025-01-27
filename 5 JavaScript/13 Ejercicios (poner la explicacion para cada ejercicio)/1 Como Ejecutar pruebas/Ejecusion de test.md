@@ -1,4 +1,9 @@
 
+# EL priemer paso para ejecutrar los test en JavaScript es con npm, ese se instala de la sigueitne manera
+
+      npm install (en la raiz del proyeto donde se ubican las carpetas y archivos para los test)
+
+
 
 # para Ejecutar los test se nesecita de dos archivos y una herramienta para ejecutarlas
 
