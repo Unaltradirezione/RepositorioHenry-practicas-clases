@@ -69,3 +69,10 @@ for (var i = 0; i < 10; i++) {
 
 
                                                 //Bucle while
+        //este permite repetir una accion siempre y cuando una ondicion sea verdadera
+
+        //Sintaxis
+        while (condición) {
+            // código a ejecutar mientras la condición sea true
+        }
+        
